@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <script src="https://kit.fontawesome.com/98221eeea1.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Roboto+Condensed:wght@300&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            background: black;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            letter-spacing: 1px;
+        }
+
+        form {
+            padding: 30px;
+            margin: 30px;
+        }
+
+        .form {
+            padding: 5px;
+        }
+
+        h1 {
+            margin-bottom: 50px;
+            font-family: 'Roboto Condensed', sans-serif;
+            letter-spacing: 0px;
+        }
+
+        input {
+            border: 0px;
+            border-bottom: 2px solid white;
+            padding: 5px;
+            outline-style: none;
+        }
+
+        .btn {
+            background-color: white;
+            color: black;
+            width: 200px;
+            height: 40px;
+        }
+
+        .row-heading {
+            padding-left: 5px;
+            margin-bottom: 10px;
+        }
+
+        .icons i {
+            margin: 10px;
+        }
+
+        .row {
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <form autocomplete="off">
+        <h1>Contact Us</h1>
+        <div class="form">
+            <div class="row">
+                <div class="row-heading">Name</div>
+                <div><input type="text" placeholder="Enter Your Full Name" size="50" name="name"></div>
+            </div><br />
+            <div class="row">
+                <div class="row-heading">Email</div>
+                <div><input type="text" placeholder="Enter Your Email" value="" size="50" name="email">
+                </div>
+            </div><br />
+            <div class="row">
+                <div class="row-heading">DETAILS</div>
+                <div><input type="text" placeholder="Enter your Project Details" size="50" name="details"></div>
+            </div><br />
+            <div class="btn-conatiner"><input type="submit" name="submit" value="SEND MESSAGE"
+                    onclick="alert('Message sent!')" class="btn"></div><br />
+            <div class="icons">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
